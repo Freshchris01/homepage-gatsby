@@ -20,7 +20,7 @@ const menuItems = [{
 }]
 
 interface MyProps { }
-export const Footer: FC<MyProps> = () =>
+const Footer: FC<MyProps> = () =>
 	<div className='sticky bottom-2 flex flex-row justify-center align-middle mt-4'>
 		{menuItems.map((item, index) => {
 			return (
@@ -30,3 +30,5 @@ export const Footer: FC<MyProps> = () =>
 			)
 		})}
 	</div>
+
+export default Footer;
