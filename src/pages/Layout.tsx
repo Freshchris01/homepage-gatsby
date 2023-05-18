@@ -1,13 +1,14 @@
 import React, {FC } from 'react'
 import { Header } from './Header'
+import { Footer } from './Footer'
 
 interface MyProps{
 	children: React.ReactNode
 }
 
 export const Layout: FC<MyProps> = (props) =>
-		<div className='container max-w-3xl font-primary my-10'>
+		<div className='container max-w-3xl font-primary pt-20 flex flex-col'>
 			<Header />
-			<main>{props.children}</main>
-			<footer>Footer</footer>
+			<main className='grow'>{props.children}</main>
+			<Footer />
 		</div>
