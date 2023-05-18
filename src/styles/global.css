@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+	font-family: work-sans-regular;
+	src: url(work-sans/WorkSans-Regular.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: work-sans-bold;
+	src: url(work-sans/WorkSans-Bold.ttf) format("truetype");
+}

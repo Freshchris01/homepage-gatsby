@@ -6,6 +6,13 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    container: {
+      center: true,
+    },
+    fontFamily: {
+      primary: "work-sans-regular",
+      bold: "work-sans-bold",
+    }
   },
   plugins: [],
 }
