@@ -6,7 +6,7 @@ interface MyProps{}
 const Header: FC<MyProps> = () =>
 		<div>
 			<div className='justify-center'>
-			<StaticImage src='../images/portrait.png' alt="logo" layout='fixed' width={170} className='m-auto rounded-full' />
+			<StaticImage src='../images/portrait.webp' alt="logo" layout='fixed' width={170} className='m-auto rounded-full' />
 			</div>
 			<p className='text-center'>Hello, my name is Christian.<br/>
 I am Supporting companies on their Azure Cloud journey.<br/>
