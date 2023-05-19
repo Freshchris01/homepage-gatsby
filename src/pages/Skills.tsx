@@ -66,7 +66,7 @@ const Skills: FC<MyProps> = () =>
 			return (
 				<div className='flex flex-col mb-5' key={"skill-category-" + index} id='skills'>
 					<h3 className='font-bold flex-1'>{category.category}</h3>
-					<div className='flex'>
+					<div className='flex flex-wrap'>
 					{category.items.map((item, index) => {
 						return (
 							<Skill title={item.title} scale={item.scale} />

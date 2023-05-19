@@ -4,7 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 interface MyProps{}
 const Header: FC<MyProps> = () =>
-		<div>
+		<div id='home'>
 			<div className='justify-center'>
 			<StaticImage src='../images/portrait.webp' alt="logo" layout='fixed' width={170} className='m-auto rounded-full' />
 			</div>

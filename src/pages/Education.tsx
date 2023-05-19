@@ -5,11 +5,11 @@ import Heading from './components/Heading'
 
 interface MyProps { }
 
-const educatuion = [{
+const education = [{
 	title: "Computer Science (M.Sc)",
 	university: "Technical University of Munich (TUM)",
 	year: "2019 - 2022",
-	description: "Focus: Software engineering, data science and High-Performance Computing (HPC)",
+	description: "Software engineering, data science and High-Performance Computing (HPC)",
 }, {
 	title: "Games Engineering (B.Sc)",
 	university: "Technical University of Munich (TUM)",
@@ -21,7 +21,7 @@ const educatuion = [{
 const Education: FC<MyProps> = () =>
 	<div className='' id="education">
 		<Heading title='Education' />
-		{educatuion.map((item, index) => {
+		{education.map((item, index) => {
 			return (
 				<div className='flex flex-col mb-5' key={index}>
 					<div className='flex'>

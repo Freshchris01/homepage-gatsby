@@ -7,7 +7,7 @@ import Skills from "./Skills"
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
-    <div className=" bg-primary">
+    <div className=" bg-primary p-2 lg:p-0">
       <Layout>
         <Education />
         <Experience />
