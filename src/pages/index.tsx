@@ -1,7 +1,7 @@
 import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
-import { Layout } from "./Layout"
-import { Education } from "./Education"
+import  Layout from "./Layout"
+import  Education from "./Education"
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
