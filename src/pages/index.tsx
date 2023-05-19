@@ -3,6 +3,7 @@ import type { HeadFC, PageProps } from "gatsby"
 import Layout from "./Layout"
 import Education from "./Education"
 import Experience from "./Experience"
+import Skills from "./Skills"
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
@@ -10,6 +11,7 @@ const IndexPage: React.FC<PageProps> = () => {
       <Layout>
         <Education />
         <Experience />
+        <Skills />
       </Layout>
     </div>
   )

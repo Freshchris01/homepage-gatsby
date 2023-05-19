@@ -1,6 +1,7 @@
 const imageUrl = "https://placehold.co/100x100"
 import React, { FC } from 'react'
 import { Link } from "gatsby"
+import Heading from './components/Heading'
 
 interface MyProps { }
 
@@ -19,6 +20,7 @@ const educatuion = [{
 
 const Education: FC<MyProps> = () =>
 	<div className=''>
+		<Heading title='Education' />
 		{educatuion.map((item, index) => {
 			return (
 				<div className='flex flex-col mb-5' key={index}>

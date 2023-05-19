@@ -1,5 +1,6 @@
 import React, { FC } from 'react'
 import { Link } from "gatsby"
+import Heading from './components/Heading'
 
 interface MyProps { }
 
@@ -45,6 +46,7 @@ const experiences = [{
 
 const Experience: FC<MyProps> = () =>
 	<div className=''>
+		<Heading title='Experience' />
 		{experiences.map((item, index) => {
 			return (
 				<div className='flex flex-col mb-5' key={index}>
@@ -52,7 +54,7 @@ const Experience: FC<MyProps> = () =>
 						<h3 className='font-bold flex-1'>{item.title}</h3>
 						<h3 className='font-bold'>{item.year}</h3>
 					</div>
-					<h3 className='font-bold'>{item.company}</h3>
+					<h3 className=''>{item.company}</h3>
 					<ul className='list-disc list-inside'>
 					{item.text.map((text, textIndex) => {
 						return (
@@ -60,7 +62,6 @@ const Experience: FC<MyProps> = () =>
 						)
 					})}
 					</ul>
-					<Link to='/'>Read more...(coming soon)</Link>
 				</div>
 			)
 		})
