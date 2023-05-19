@@ -45,7 +45,7 @@ const experiences = [{
 ]
 
 const Experience: FC<MyProps> = () =>
-	<div className=''>
+	<div className='' id='experience'>
 		<Heading title='Experience' />
 		{experiences.map((item, index) => {
 			return (

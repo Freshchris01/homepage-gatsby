@@ -19,7 +19,7 @@ const educatuion = [{
 ]
 
 const Education: FC<MyProps> = () =>
-	<div className=''>
+	<div className='' id="education">
 		<Heading title='Education' />
 		{educatuion.map((item, index) => {
 			return (

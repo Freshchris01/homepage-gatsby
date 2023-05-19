@@ -12,7 +12,7 @@ const config: GatsbyConfig = {
   graphqlTypegen: true,
   plugins: ["gatsby-plugin-postcss",
   //"gatsby-plugin-google-gtag",
-  "gatsby-plugin-image", "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
+  "gatsby-plugin-image", "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp", "gatsby-plugin-smoothscroll", {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "images",

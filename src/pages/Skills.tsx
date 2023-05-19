@@ -64,7 +64,7 @@ const Skills: FC<MyProps> = () =>
 		<Heading title='Skills' />
 		{skills.map((category, index) => {
 			return (
-				<div className='flex flex-col mb-5' key={"skill-category-" + index}>
+				<div className='flex flex-col mb-5' key={"skill-category-" + index} id='skills'>
 					<h3 className='font-bold flex-1'>{category.category}</h3>
 					<div className='flex'>
 					{category.items.map((item, index) => {
