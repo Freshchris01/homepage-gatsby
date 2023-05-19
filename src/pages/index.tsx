@@ -4,6 +4,7 @@ import Layout from "./Layout"
 import Education from "./Education"
 import Experience from "./Experience"
 import Skills from "./Skills"
+import Projects from "./Projects"
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
@@ -12,6 +13,7 @@ const IndexPage: React.FC<PageProps> = () => {
         <Education />
         <Experience />
         <Skills />
+        <Projects />
       </Layout>
     </div>
   )

@@ -69,7 +69,7 @@ const Skills: FC<MyProps> = () =>
 					<div className='flex flex-wrap'>
 					{category.items.map((item, index) => {
 						return (
-							<Skill title={item.title} scale={item.scale} />
+							<Skill title={item.title} scale={item.scale} key={"skills-" + item.title}/>
 						)
 					})}
 					</div>
