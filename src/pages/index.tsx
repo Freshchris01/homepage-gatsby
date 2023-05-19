@@ -7,8 +7,6 @@ const IndexPage: React.FC<PageProps> = () => {
   return (
     <div className=" bg-primary">
       <Layout>
-        <div>This is some Content!!</div>
-        <div>This is some Content!!</div>
         <Education />
       </Layout>
     </div>
