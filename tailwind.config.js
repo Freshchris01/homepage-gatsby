@@ -11,10 +11,6 @@ module.exports = {
     },
     colors: {
       primary: "#F1F2F6",
-    },
-    fontFamily: {
-      primary: "work-sans-regular",
-      bold: "work-sans-bold",
     }
   },
   plugins: [],

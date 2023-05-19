@@ -21,13 +21,13 @@ const Education: FC<MyProps> = () =>
 	<div className=''>
 		{educatuion.map((item, index) => {
 			return (
-				<div className='flex flex-col' key={index}>
+				<div className='flex flex-col mb-5' key={index}>
 					<div className='flex'>
-						<h3 className='text-xl font-bold flex-1'>{item.title}</h3>
-						<h3 className='text-xl font-bold'>{item.year}</h3>
+						<h3 className='font-bold flex-1'>{item.title}</h3>
+						<h3 className='font-bold'>{item.year}</h3>
 					</div>
-					<h3 className='text-xl font-bold'>{item.university}</h3>
-					<p className='text-xl'>{item.description}</p>
+					<h3 className='font-bold'>{item.university}</h3>
+					<p className=''>{item.description}</p>
 					<Link to='/'>Read more...(coming soon)</Link>
 				</div>
 			)
