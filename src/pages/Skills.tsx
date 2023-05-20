@@ -1,9 +1,6 @@
-const imageUrl = "https://placehold.co/100x100"
 import React, { FC } from 'react'
-import { Link } from "gatsby"
 import Heading from './components/Heading'
 import Skill from './components/Skill'
-import Certification from './components/Certification'
 import { StaticImage } from 'gatsby-plugin-image'
 
 interface MyProps { }

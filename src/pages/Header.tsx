@@ -9,7 +9,7 @@ const Header: FC<MyProps> = () =>
 			<StaticImage src='../images/portrait.webp' alt="portrait image" layout='fixed' width={170} className='m-auto rounded-full' />
 			</div>
 			<p className='text-center'>Hello, my name is Christian.<br/>
-I am Supporting companies on their Azure Cloud journey.<br/>
+I am supporting companies on their Azure Cloud journey.<br/>
 Microsoft & CNCF Cloud Architect/DevOps Engineer.<br/>
 Let’s get in touch.</p>
 <div className='flex flex-row w-full justify-center mt-2' style={{height: "35px"}}>
