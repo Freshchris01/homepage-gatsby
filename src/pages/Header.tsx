@@ -10,7 +10,7 @@ const Header: FC<MyProps> = () =>
 			</div>
 			<p className='text-center'>Hello, my name is Christian.<br/>
 I am supporting companies on their Azure Cloud journey.<br/>
-Microsoft & CNCF Cloud Architect/DevOps Engineer.<br/>
+Microsoft & CNCF Certified Cloud Architect/DevOps Engineer.<br/>
 Let’s get in touch.</p>
 <div className='flex flex-row w-full justify-center mt-2' style={{height: "35px"}}>
 				<a href="https://github.com/Freshchris01" target="_blank" rel="noreferrer">

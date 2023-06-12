@@ -55,10 +55,10 @@ const Experience: FC<MyProps> = () =>
 						<h3 className='font-bold'>{item.year}</h3>
 					</div>
 					<h3 className=''>{item.company}</h3>
-					<ul className='list-disc list-inside'>
+					<ul className='list-disc list-outside pl-4'>
 					{item.text.map((text, textIndex) => {
 						return (
-							<li className='' key={"company-" + index + "text-" + textIndex}> {text}</li>
+							<li className='' key={"company-" + index + "text-" + textIndex}>{text}</li>
 						)
 					})}
 					</ul>

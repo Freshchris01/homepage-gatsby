@@ -24,14 +24,20 @@ const menuItems = [
 	}, {
 		title: "Contact",
 		link: "#contact",
-	}]
+	},{
+		title: "CV",
+	},
+{
+	title: "References",
+	link:"#references"
+}]
 
 interface MyProps { }
 const Footer: FC<MyProps> = () =>
 	<div className='sticky bottom-2 flex flex-row flex-wrap justify-center align-middle mt-4'>
 		{menuItems.map((item, index) => {
 			return (
-				<div className='border-2 rounded-lg bg-primary mx-2 p-2 m-2 cursor-pointer' key={index}>
+				<div className='border rounded-lg bg-primary mx-2 p-2 m-2 cursor-pointer' key={index}>
 					<div className='' onClick={() => scrollTo(item.link)} > {item.title}</div>
 				</div>
 			)

@@ -33,7 +33,7 @@ const Projects: FC<MyProps> = () =>
 						<h3 className='font-bold flex-1'>{item.title}</h3>
 						<h3 className='font-bold'>{item.year}</h3>
 					</div>
-					<ul className='list-disc list-inside'>
+					<ul className='list-disc list-outside pl-4'>
 					{item.text.map((text, textIndex) => {
 						return (
 							<li className='' key={"company-" + index + "text-" + textIndex}> {text}</li>
