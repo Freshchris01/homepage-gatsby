@@ -20,13 +20,12 @@ const Layout: FC<MyProps> = (props) => {
 		<div className='container max-w-3xl pt-20 flex flex-col'>
 			<div className='w-auto flex justify-end'>
 				<div onClick={toggleMenu} className='cursor-pointer'>
-					<StaticImage layout='constrained' className='menu-button w-8 h-8' src={'../images/burger.png'} alt={''} />
+					<StaticImage layout='constrained' className='menu-button w-8 h-8 fixed' src={'../images/burger.png'} alt={''} />
 				</div>
 			</div>
 			<Menu ref={menuRef} />
 			<Header />
 			<main className='grow'>{props.children}</main>
-			<Footer />
 		</div>
 	)
 }
