@@ -29,6 +29,7 @@ const experiences = [{
 	text: [
 		"Launched a content-based recommender-system for online news and blog platforms",
 		"Deployed a NLP pipeline with Python and a dockerized React web app on AWS",
+		"Created CI/CD pipelines with Github Actions for automated deployments",
 		"Implemented an online research experiment targeting user impact of recommender-systems for the TU Hamburg with 20.000 participants"
 	]
 }, {
